@@ -228,7 +228,7 @@ public class MainActivity extends Activity {
         }
         setContentView(R.layout.activity_main);
         tagId = findViewById(R.id.IdText);
-        String IdLabel = " id: Ожидание...";
+        String IdLabel = " Ожидание...";
         tagId.setText(IdLabel);
 
         mImageView = findViewById(R.id.imageView);
@@ -239,7 +239,7 @@ public class MainActivity extends Activity {
             CurAction = "write";
             mImageView.setImageResource(R.mipmap.nfc_w);
             TextView Header = findViewById(R.id.ViewText);
-            Header.setText("@string/header_write");
+            Header.setText(getResources().getString(R.string.header_write));
             WritePGNum = Integer.parseInt(intent.getStringExtra("PageNumber"));
             WriteString = intent.getStringExtra("WriteString");
         }
