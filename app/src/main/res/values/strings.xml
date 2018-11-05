@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RfIdTool</string>
+    <string name="header_read"> Сканируйте метку NFC</string>
+    <string name="header_write"> Запись метки NFC</string>
+    <string name="label_id"> id: </string>
+</resources>
